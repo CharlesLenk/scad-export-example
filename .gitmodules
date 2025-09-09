@@ -1,0 +1,3 @@
+[submodule "openscad_export"]
+	path = openscad_export
+	url = https://github.com/CharlesLenk/openscad_export.git
