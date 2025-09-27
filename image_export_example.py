@@ -1,4 +1,4 @@
-from openscad_export.exportable import Folder, Model, Image, ColorScheme, ImageSize
+from openscad_export.exportable import Folder, Image, ColorScheme, ImageSize
 from openscad_export.export_config import ExportConfig
 from openscad_export.export import export_files
 

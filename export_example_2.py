@@ -1,8 +1,5 @@
 from openscad_export.exportable import Folder, Model
-from openscad_export.export_config import ExportConfig
 from openscad_export.export import export_files
-
-
 
 files=Folder(
     name='openscad_export/example',
