@@ -15,3 +15,5 @@ else if (name == "cylinder")
     cylinder(d = diameter, h = z);
 else if (name == "sphere")
     sphere(d = diameter);
+else if (name == "circle")
+    circle(d = diameter);
