@@ -1,6 +1,6 @@
-from openscad_export.exportable import Folder, Image, ColorScheme, ImageSize
-from openscad_export.export_config import ExportConfig
 from openscad_export.export import export
+from openscad_export.export_config import ExportConfig
+from openscad_export.exportable import ColorScheme, Folder, Image, ImageSize
 
 files=Folder(
     name='openscad_export/example',
