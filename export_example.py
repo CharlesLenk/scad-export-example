@@ -1,9 +1,9 @@
 from scad_export.export import export
 from scad_export.exportable import Folder, Model
 
-files=Folder(
+exportables=Folder(
     # These folders are created relative to the configured export directory.
-    name='openscad_export/example',
+    name='scad_export/example',
     contents=[
         Folder(
             # Additional folders are created relative to the containing Folder configuration.
@@ -35,4 +35,5 @@ files=Folder(
     ]
 )
 
-export(files)
+# Invoke the logic to export the exportables to files and folders.
+export(exportables)

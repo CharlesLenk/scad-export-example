@@ -1,8 +1,8 @@
 from scad_export.export import export
 from scad_export.exportable import Drawing, Folder
 
-files=Folder(
-    name='openscad_export/example/circle',
+exportables=Folder(
+    name='scad_export/example/circle',
     contents=[
         Drawing(
             name='circle',
@@ -11,4 +11,4 @@ files=Folder(
     ]
 )
 
-export(files)
+export(exportables)
