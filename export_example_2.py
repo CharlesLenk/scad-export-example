@@ -1,7 +1,7 @@
 from scad_export.export import export
 from scad_export.exportable import Folder, Model
 
-files=Folder(
+exportables=Folder(
     name='scad_export/example',
     contents=[
         Folder(
@@ -19,4 +19,4 @@ files=Folder(
     ]
 )
 
-export(files)
+export(exportables)

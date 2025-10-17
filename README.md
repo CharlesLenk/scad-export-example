@@ -1,5 +1,6 @@
 # SCAD Export Example
-This project is an example of how to use [SCAD Export](https://github.com/CharlesLenk/scad_export). The documentation here is limited to the examples, for usage documentation see the SCAD Export readme.
+
+This project contains examples of how to use [SCAD Export](https://github.com/CharlesLenk/scad_export). The documentation here is limited to the examples, for usage documentation see the SCAD Export readme.
 
 # SCAD Example
 

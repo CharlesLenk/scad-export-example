@@ -2,7 +2,7 @@ from scad_export.export import export
 from scad_export.export_config import ExportConfig
 from scad_export.exportable import ColorScheme, Folder, Image, ImageSize
 
-files=Folder(
+exportables=Folder(
     name='scad_export/example',
     contents=[
         Folder(
@@ -21,4 +21,4 @@ config = ExportConfig(
     default_image_size=ImageSize(width=500, height=500)
 )
 
-export(files, config)
+export(exportables, config)
