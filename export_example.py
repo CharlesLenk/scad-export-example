@@ -3,7 +3,7 @@ from scad_export.exportable import Folder, Model
 
 files=Folder(
     # These folders are created relative to the configured export directory.
-    name='openscad_export/example',
+    name='scad_export/example',
     contents=[
         Folder(
             # Additional folders are created relative to the containing Folder configuration.

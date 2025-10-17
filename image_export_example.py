@@ -3,7 +3,7 @@ from scad_export.export_config import ExportConfig
 from scad_export.exportable import ColorScheme, Folder, Image, ImageSize
 
 files=Folder(
-    name='openscad_export/example',
+    name='scad_export/example',
     contents=[
         Folder(
             name='images',
